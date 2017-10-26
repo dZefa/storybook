@@ -81,3 +81,4 @@ __tests__/
 
 !.elasticbeanstalk/*.global.yml
 
+.ebextensions/
