@@ -22,7 +22,7 @@ module.exports = {
     })
   }, 
   createRoom: (req, res) => {
-    db.Chatroom.create({
+    Chatroom.create({
       chatroom_sender: req.body.userId,
       chatroom_recipient: req.body.friendId,
       admin: req.body.username
