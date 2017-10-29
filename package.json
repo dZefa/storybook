@@ -8,7 +8,8 @@
     "compile-watch": "webpack --watch",
     "start-node": "nodemon react_server/server.js",
     "test": "jest",
-    "ebs": "npm run compile && npm run start-node"
+    "ebs": "npm run compile && npm run start-node",
+    "angie": "node express_server/server.js"
   },
   "dependencies": {
     "amazon-cognito-identity-js": "^1.21.0",
@@ -27,7 +28,7 @@
     "express": "^4.16.2",
     "nodemon": "^1.12.1",
     "path": "^0.12.7",
-    "pg": "^7.3.0",
+    "pg": "^6.4.1",
     "querystring": "^0.2.0",
     "react": "16.0.0-beta.5",
     "react-dom": "^16.0.0",
@@ -40,9 +41,9 @@
     "react-native-fontawesome": "^5.7.0",
     "react-native-fs": "^2.8.1",
     "react-native-image-crop-picker": "^0.17.3",
-    "react-native-vector-icons": "^4.4.2",
     "react-native-maps": "^0.17.1",
     "react-native-spinkit": "^1.1.1",
+    "react-native-vector-icons": "^4.4.2",
     "react-navigation": "^1.0.0-beta.13",
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
